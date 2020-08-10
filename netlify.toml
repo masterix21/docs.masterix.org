@@ -1,5 +1,5 @@
 [build]
-command = "node fetch-content.js && hugo -b https://docs.spatie.be"
+command = "node fetch-content.js && hugo -b https://docs.masterix.org"
 publish = "public"
 
 [context.production.environment]
@@ -7,109 +7,19 @@ HUGO_VERSION = "0.55.5"
 HUGO_ENV = "production"
 
 [[redirects]]
-  from = "https://docs-spatie.netlify.com/*"
-  to = "https://docs.spatie.be/:splat"
+  from = "https://masterix21-docs.netlify.com/*"
+  to = "https://docs.masterix.org/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/laravel-backup/"
-  to = "/laravel-backup/v6/introduction"
+  from = "/laravel-addressable/"
+  to = "/laravel-addressable/v1/introduction"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/laravel-backup-server/"
-  to = "/laravel-backup-server/v1/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-medialibrary/"
-  to = "/laravel-medialibrary/v8/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-blade-x/"
-  to = "/laravel-blade-x/v2/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-tags/"
-  to = "/laravel-tags/v2/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-event-projector/"
-  to = "/laravel-event-projector/v2/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-activitylog/"
-  to = "/laravel-activitylog/v3/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-html/"
-  to = "/laravel-html/v2/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-server-monitor/"
-  to = "/laravel-server-monitor/v1/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-uptime-monitor/"
-  to = "/laravel-uptime-monitor/v3/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-slack-slash-command/"
-  to = "/laravel-slack-slash-command/v1/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/menu/"
-  to = "/menu/v2/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/image/"
-  to = "/image/v1/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/enum/"
-  to = "/enum/v2/introduction"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/laravel-resource-links/"
-  to = "/laravel-resource-links/v1/introduction"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "/laravel-dashboard/"
-  to = "/laravel-dashboard/v1/introduction"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "/laravel-multitenancy/"
-  to = "/laravel-multitenancy/v1/introduction"
+  from = "/x-blade-components/"
+  to = "/x-blade-components/v1/introduction"
   status = 301
   force = true
