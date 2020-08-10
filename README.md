@@ -1,18 +1,8 @@
 # Spatie docs
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/855d0daf-00d9-4dcb-8fca-66f51c48edee/deploy-status)](https://app.netlify.com/sites/docs-spatie/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6294fcf1-042c-424b-9874-44d7a60da9b4/deploy-status)](https://app.netlify.com/sites/masterix21-docs/deploys)
 
 This repository contains the Hugo configuration of the docs site. The application is automatically deployed to https://docs.spatie.be
-
-## Support us
-
-Learn how to create a package like this one, by watching our premium video course:
-
-[![Laravel Package training](https://spatie.be/github/package-training.jpg)](https://laravelpackage.training)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
